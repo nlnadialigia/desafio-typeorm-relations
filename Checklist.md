@@ -1,10 +1,24 @@
 - Clientes
 - Produtos
-- Pedidos
-- PedidosProdutos(`ManytoMany`) => armazena: `id, id_product, qtde, value`
+- Pedidos => adicionou o `customer_id`
+- PedidosProdutos(`ManytoMany`) => armazena: `id, id_product, qtde, value, order_id`
 
 ### 1ª Etapa => @shared
 
 **Infra** => tudo que está relacionado a serviços externos
 - containers
-- migrations => até AddCustomerIdToOrders => 34:29
+- migrations
+
+### 2ª Etapa => Customers
+
+- `entities` => incluir as referências ao typeorm
+  - Entity,
+  - Column,
+  - PrimaryGeneratedColumn,
+  - CreateDateColumn,
+  - UpdateDateColumn,
+
+- `controller` => instanciar as variáveis e vincular ao `CreateCustomerService`
+
+### 3ª Etapa => Products
+
