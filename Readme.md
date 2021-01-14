@@ -126,7 +126,7 @@ Criação de uma aplicação que deve permitir a criação de clientes, produtos
 Para esse desafio, temos os seguintes testes:
 
 <h3 align="center">
-⚠️ Antes de rodar os testes, crie um banco de dados com o nome "gostack_desafio09_tests" para que todos os testes possam executar corretamente ⚠️
+⚠️ Antes de rodar os testes, crie um banco de dados com o nome gostack_desafio09_tests para que todos os testes possam executar corretamente ⚠️
 </h3>
 
 <br>
@@ -150,6 +150,11 @@ Para esse desafio, temos os seguintes testes:
 - `should be able to subtract an product total quantity when it is ordered`: Para que esse teste passe, sua aplicação deve permitir que, quando um novo pedido for criado, seja alterada a quantidade total dos produtos baseado na quantidade pedida.
 
 - `should be able to list one specific order`: Para que esse teste passe, você deve permitir que a rota orders/:id retorne um pedido, contendo todas as informações do pedido com o relacionamento de customer e order_products.
+
+<h4 align="center">
+Resultado: <br>
+<img src="assets/tests.png" width="500">
+</h4>
 
 <br>
 
