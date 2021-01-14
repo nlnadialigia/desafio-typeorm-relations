@@ -22,3 +22,17 @@
 
 ### 3ª Etapa => Products
 
+- `entities`
+- `typeorm - repositories`
+- `services`
+
+### 4ª Etapa => Orders
+
+- `entities` => Oerder e OrdersProducts
+- `typeorm - repositories`
+- `controller` => começar com o método `create`
+- `services` => começar com FindOrderService
+
+
+
+
